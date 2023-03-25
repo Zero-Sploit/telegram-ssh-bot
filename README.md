@@ -9,7 +9,8 @@
 
     ``Python 3
     python-telebot library
-    fail2ban or a similar tool that logs failed SSH login attempts to a file``
+    fail2ban or a similar tool that logs failed SSH login attempts to a file.
+    will work with just the ssh log file ass well.``
 
 #  Setup
 
