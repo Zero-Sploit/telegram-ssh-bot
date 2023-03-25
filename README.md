@@ -10,24 +10,26 @@
     python-telebot library
     fail2ban or a similar tool that logs failed SSH login attempts to a file``
 
-###    Setup
+#  Setup
 
-###    Clone this repository to your server:
-
-### bash
+##    Clone this repository to your server:
 
 ``git clone https://github.com/Zero-Sploit/ssh-telegram-bot.git``
 
-###    Install the required Python packages:
+## Install the required Python packages:
 
 ``pip install python-telegram-bot``
 
-###    Create a Telegram bot and get the API token. Follow these instructions to create a bot and obtain the API token.
+### Create a Telegram bot and get the API token. Follow these instructions to create a bot and obtain the API token.
+
 ###    Create a Telegram group and add the bot to the group.
-###    Configure fail2ban to log failed SSH login attempts to a file. The exact steps may vary depending on your operating system and configuration. For example, on Ubuntu, you can follow these instructions.
-###    Edit the config.py file with the API token, group ID, and path to the log file. You can also customize the alert message if you like.
+
+### Add your bot token and your chat id to bot.py.
+
 ###    Run the bot with the following command:
 
 ``python bot.py``
 
 ###    Make sure the bot is running and check that it sends an alert message to the Telegram group when two failed login attempts are detected.
+
+# Note: This was tested on a Raspberry pi model 4b.
